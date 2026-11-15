@@ -1,0 +1,5 @@
+train,test,features,precision,recall,F1
+unsw,unsw,all,0.918,0.932,0.925
+cse,cse,all,0.973,0.872,0.92
+cse,unsw,all,0.525,0.007,0.014
+unsw,cse,all,0.154,0.028,0.048

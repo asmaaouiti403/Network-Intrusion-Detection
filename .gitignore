@@ -1,0 +1,21 @@
+cat > .gitignore << 'EOF'
+# Raw datasets
+data/raw/*.csv
+data/raw/*.parquet
+data/raw/archive/*.csv
+data/raw/archive/*.parquet
+
+# Python generated files
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.venv/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# System files
+.DS_Store
+EOF
